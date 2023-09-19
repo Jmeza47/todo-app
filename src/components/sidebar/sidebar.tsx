@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-import Button from "./button"
+import NavButton from "./navButton"
 
 import sunny from "../../assets/sun-svgrepo-com.svg"
 import star from "../../assets/stars-svgrepo-com.svg"
@@ -20,10 +20,10 @@ export default function Sidebar(): React.ReactElement {
         <Aside>
             <div></div>
             <div>
-                <Button title="My day" icon={sunny} linkAdress={"/"} />
-                <Button title="Important" icon={star} linkAdress={"/important"} />
-                <Button title="Planned" icon={calendar} linkAdress={"/planned"} />
-                <Button title="Tasks" icon={house} linkAdress={"/tasks"} />
+                <NavButton title="My day" icon={sunny} linkAdress={"/"} />
+                <NavButton title="Important" icon={star} linkAdress={"/important"} />
+                <NavButton title="Planned" icon={calendar} linkAdress={"/planned"} />
+                <NavButton title="Tasks" icon={house} linkAdress={"/tasks"} />
             </div>
             <div></div>
 
