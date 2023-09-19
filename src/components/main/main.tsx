@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { Outlet } from "react-router-dom";
 
 const Wrapper = styled.main`
-    padding: 1rem;
+    padding: 2rem;
     background-color: #212121;
 `
 
